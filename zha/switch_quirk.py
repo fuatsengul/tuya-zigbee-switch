@@ -136,6 +136,7 @@ class OnOffWithIndicatorCluster(CustomCluster, OnOff):
 ``````````````````````````````````````````````````````````````````'''
 
 CONFIGS = [
+    "gzggw2ia;TS0001-AVB-DC;BC2u;LD2i;SD3u;RC0;",
     "46t1rvdu;WHD02-Aubess;BC4u;LD2;SB4u;RB5;",
     "46t1rvdu;WHD02-Aubess-ED;BC4u;LD2;SB4u;RB5;",
     "WHD02-Aubess;WHD02-Aubess;BC4u;LD2;SB4u;RB5;",
@@ -213,10 +214,10 @@ CONFIGS = [
     "zjuvw9zf;TS0726-2-BS;LC4;SB1u;RC2;IC0;SB7u;RC3;ID7;M;",
     "iedhxgyi;TS0726-3-BS;LC4;SB1u;RC2;IC0;SB7u;RC3;ID7;SB4u;RD2;IB5;M;",
     "hafsqare;TS0011-BS-T;LC2;SA0u;RD3;IB4;M;",
-    "f2slq5pj;Bseed-2-gang;SB6u;RD3;IC2;SA1u;RC0;IB4;M;",
-    "f2slq5pj;Bseed-2-gang-ED;SB6u;RD3;IC2;SA1u;RC0;IB4;M;",
-    "Bseed-2-gang;Bseed-2-gang;SB6u;RD3;IC2;SA1u;RC0;IB4;M;",
-    "Bseed-2-gang;Bseed-2-gang-ED;SB6u;RD3;IC2;SA1u;RC0;IB4;M;",
+    "f2slq5pj;Bseed-2-gang;LC3;SB6u;RD3;IC2;SA1u;RC0;IB4;M;",
+    "f2slq5pj;Bseed-2-gang-ED;LC3;SB6u;RD3;IC2;SA1u;RC0;IB4;M;",
+    "Bseed-2-gang;Bseed-2-gang;LC3;SB6u;RD3;IC2;SA1u;RC0;IB4;M;",
+    "Bseed-2-gang;Bseed-2-gang-ED;LC3;SB6u;RD3;IC2;SA1u;RC0;IB4;M;",
     "xk5udnd6;Bseed-2-gang-2;LC3;SB5u;RC0B6;ID2;SD4u;RA1D7;ID3;M;SLP;",
     "xk5udnd6;Bseed-2-gang-2-ED;LC3;SB5u;RC0B6;ID2;SD4u;RA1D7;ID3;M;SLP;",
     "Bseed-2-gang-2;Bseed-2-gang-2;LC3;SB5u;RC0B6;ID2;SD4u;RA1D7;ID3;M;SLP;",
@@ -308,10 +309,10 @@ CONFIGS = [
     "Tuya-TS0012-custom;TS0012-custom;BA0f;LD7;SC2f;RC0;SC3f;RB4;",
     "Tuya-TS0012-custom;TS0042-CUSTOM;BA0f;LD7;SC2f;RC0;SC3f;RB4;",
     "Tuya-TS0012-custom;TS0012-custom-end-device;BA0f;LD7;SC2f;RC0;SC3f;RB4;",
-    "zmlunnhy;Zemi-2-gang;SC3U;RB5C4;IB7;SD2U;RC2D4;ID7;SLP;",
-    "zmlunnhy;Zemi-2-gang-ED;SC3U;RB5C4;IB7;SD2U;RC2D4;ID7;SLP;",
-    "Zemi-2-gang;Zemi-2-gang;SC3U;RB5C4;IB7;SD2U;RC2D4;ID7;SLP;",
-    "Zemi-2-gang;Zemi-2-gang-ED;SC3U;RB5C4;IB7;SD2U;RC2D4;ID7;SLP;",
+    "zmlunnhy;Zemi-2-gang;SC3U;RB5C4;IB7;SD2U;RC2D4;ID7;",
+    "zmlunnhy;Zemi-2-gang-ED;SC3U;RB5C4;IB7;SD2U;RC2D4;ID7;",
+    "Zemi-2-gang;Zemi-2-gang;SC3U;RB5C4;IB7;SD2U;RC2D4;ID7;",
+    "Zemi-2-gang;Zemi-2-gang-ED;SC3U;RB5C4;IB7;SD2U;RC2D4;ID7;",
     "TUYA;DEV-ZTU2;LD7;SA0u;RC1;IB6;M;",
 ]
 
