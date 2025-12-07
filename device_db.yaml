@@ -12,7 +12,19 @@
 # - Fill empty values with null
 # - Keep KEYs in almost alphabetical order
 # - Keep attributes in the same order
-
+TS0001_AVATTO_DC:
+  config_str: gzggw2ia;TS0001-AVB-DC;BC2u;LD2i;SD3u;RC0;
+  device_type: router
+  tuya_manufacturer_id: 4417
+  tuya_image_type: 54179
+  firmware_image_type: 43527
+  stock_converter_model: TS0001_switch_module
+  tuya_manufacturer_name: _TZ3000_gzggw2ia
+  zb_module: ZTU
+  human_name: AVATTO ZWSM16-1-Zigbee (DC)
+  status: Supported
+  github_issue: https://github.com/romasku/tuya-zigbee-switch/issues/138
+  store: https://www.aliexpress.com/item/1005007342942592.html
 AUBESS_TS0001:
   human_name: Aubess WHD02
   category: module
